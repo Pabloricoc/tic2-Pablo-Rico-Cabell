@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Propiedades CSS Pablo Rico Cabello</title>
+</head>
+<style>
+	#generica {
+		font-family: sans-serif;
+	}
+
+	#especifica {
+		font-family: "Courier", serif;
+	}
+
+	#px {
+		font-size: 35px
+	}
+
+	#em {
+		font-size: 130%;
+	}
+
+	#cursiva {
+		font-style: italic;
+	}
+
+	#altura {
+		line-height: 35px;
+	}
+
+	#titulo {
+		text-align: center;
+	}
+
+	#decorar_texto {
+		text-decoration: underline;
+	}
+
+	h2 {
+		color: rgb(251, 255, 30);
+	}
+
+	h1 {
+		color: rgb(92, 154, 226);
+	}
+
+	html {
+		background-color: rgba(178, 196, 145, 0.199);
+	}
+</style>
+<body>
+	<strong><h1>Propiedades del texto en CSS Pablo Rico Cabello</h1></strong>
+	<h3>Generic font family Pablo Rico Cabello</h3>
+	<p id="fuente_generica">La fuente genérica es una familia de fuente en general, que se puede derivar en otras fuentes específicas
+        <strong>"sans-serif"</strong> o
+        <strong>"serif"</strong>. Por ejemplo, este texto esta escrito con la fuente genérica
+    </p><h3>Specific font family Pablo Rico Cabello</h3>
+	<p id="fuente_especifica">Es un tipo de letra concreta que pertenece a una familia
+        determinada como por ejemplo <strong>"helvetica"</strong>.<br>
+        Este párrafo está escrito con la letra <strong>"courier"</strong>, un tipo de letra de la familia de fuente
+        <strong>"serif"</strong>.
+    </p>
+	<h3>Font size px Pablo Rico Cabello</h3>
+	<p id="px">Una de las formas para cambiar el tamaño de fuente es con el atributo <strong>"font-size"</strong>
+         A este le daremos un valor en píxeles (px). Por ejemplo, este texto está escrito con una letra de 35 px.
+    </p>
+	<h3>Font size em Pablo Rico Cabello</h3>
+	<p>
+        Tambień podemos cambiar el tamaño de la letra utilizando el atributo <strong>"em"</strong> en vez de px.
+        <strong>"Em"</strong> sirve para
+        poder modificar el tamaño con unas proporciones.
+    </p>
+	<p id="em">
+        Por ejemplo, esta frase está escrito con una fuente un 130% más grande que el predeterminado por la página.
+    </p>
+	<h3>font-style Pablo Rico Cabello</h3>
+	<p>
+        El estilo de fuente se puede cambiar utilizando el atributo <strong>"font-style"</strong> dentro de una etiqueta
+        style. En ella podemos poner la letra en cursiva, utilizando <strong>"italic"</strong>.
+    </p>
+		<strong><h3>line-height Pablo Rico Cabello</h3></strong>
+		<p id="altura">Con esto cambiamos la altura de linea <underlined>"line-height"</undelined>
+			dentro de la etiqueta
+			style.<br>
+			Esto tiene 35px de altura entre linea</p>
+			<h3>text-align</h3>
+			<p>Para alinear un texto a la izquierda, al centro o a la derecha tendrás que utilizar el atributo
+				<strong>"text-align"</strong> dentro de la etiqueta style. Para alinearlo a la derecha, pondras
+				<strong>text-align: right</strong> <br>si lo queremos
+				alinear al centro <strong>text-align: center</strong>.<br>
+				
+			</p><h3>text-decoration Pablo Rico Cabello</h3>
+			<p id="decorar_texto">Esto lo usamos para decorar el texto <strong>"text-decoration"</strong><br>
+				Ejemplo de párrafo subrayado</p>
+				
+				<!-- Actualizado el 24/11/2021-->
+</body>
+</html>
